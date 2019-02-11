@@ -14,7 +14,7 @@ before_build:
 
 build_script:
   - cmd: cmake --build build32 --config Release --target everything
-  - cmd: cmake --build build64 --config Release --target everything
+  - cmd: cmake --build build64 --config Release --target everythingy
 
 test_script:
   - cmd: cmake --build build32 --config Debug --target run_tests
